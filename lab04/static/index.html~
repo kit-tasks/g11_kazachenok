@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>lab04</title>
+	</head>
+	<body>
+		<h1>checkboxes</h1>
+		<hr>
+		<table border="1">
+			<tr>
+				<th>get</th>
+				<th>post</th>
+			</tr>
+			<tr>
+				<td>
+					<form method="get" action="../checkboxes">
+						<input type="checkbox" name="op1">option1<br>
+						<input type="checkbox" name="op2">option2<br>
+						<input type="submit" value="send me">
+				</td>
+				<td>
+					<form method="post" action="../checkboxes">
+						<input type="checkbox" name="op1">option1<br>
+						<input type="checkbox" name="op2">option2<br>
+						<input type="submit" value="send me">
+				</td>
+			</tr>
+		</table>
+		<h1>radiobuttons</h1>
+		<hr>
+	</body>
+</html>

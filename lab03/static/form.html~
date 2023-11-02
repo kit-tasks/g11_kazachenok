@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>g11_kazachenok lab03</title>
+	</head>
+	<body>
+		<h1> with get </h1>
+		<form method="get" action="/test">
+			your name
+			<input type="text" name="param1"/><br>
+			<input type="submit" value="send data"/>
+		</form>
+		<hr>
+		<h1> with post </h1>
+		<form method="post" action="/test">
+			your name
+			<input type="text" name="param2"/><br>
+			<input type="submit" value="send data"/>
+		</form>
+		<hr>
+		<h1> abs </h1>
+		<form method="get" action="/test">
+			a:
+			<input type="text" name="param3"/>
+			b:
+			<input type="text" name="param4"/>
+			<br>
+			<input type="submit" value="send data"/>
+		</form>
+	</body>
+</html>
